@@ -18,7 +18,7 @@ app.post('/webhook', async (req, res) => {
       chat_id: chatId,
       text: 'Welcome to the app! Click the button below to play.',
       reply_markup: {
-        inline_keyboard: [[{ text: 'Play', web_app: { url: 'https://your-web-app-url.com' } }]],
+        inline_keyboard: [[{ text: 'Play', web_app: { url: 'https://competition01.vercel.app/' } }]],
       },
     });
   }
